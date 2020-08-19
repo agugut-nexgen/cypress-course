@@ -1,1 +1,9 @@
 /* Cypress Course ArgenTesting */
+
+We program six test examples for Argentesting Cypress Course
+Example 1: two tests: both tests add some element to a TODO list and check some of them
+Example 2: use of before and assertions
+Example 3: use of after for cleaning elements
+Example 4: use of beforeEach and afterEach
+Example 5: use of fixture and Cypress._.each method
+Example 6: use of helper

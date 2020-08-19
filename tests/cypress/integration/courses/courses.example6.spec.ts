@@ -6,7 +6,7 @@ describe('Example test', () => {
         cy.fixture('courses/courses.json').then((data) => {
             itemNames = data.item_names;
         });
-        cy.visit('http://todomvc.com/examples/react/#/');
+        cy.visit('/examples/react/#/');
     });
     beforeEach(() => {
         Cypress._.each(itemNames, (itemName) => {
@@ -15,7 +15,7 @@ describe('Example test', () => {
         });
     });
 
-    it.only('test1', () => {
+    it('test1', () => {
         cy.logDebug('Check first item');
         coursesHelper.checkItem();
         cy.get('.todo-count').should('have.text', '2 items left');

@@ -4,7 +4,7 @@ describe('Example test', () => {
         cy.fixture('courses/courses.json').then((data) => {
             itemNames = data.item_names;
         });
-        cy.visit('http://todomvc.com/examples/react/#/');
+        cy.visit('/examples/react/#/');
     });
     beforeEach(() => {
         Cypress._.each(itemNames, (itemName) => {

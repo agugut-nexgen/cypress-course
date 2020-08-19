@@ -1,6 +1,6 @@
 describe('Example test', () => {
     before(() => {
-        cy.visit('http://todomvc.com/examples/react/#/');
+        cy.visit('/examples/react/#/');
     });
     it('test1', () => {
         cy.get('.new-todo').type('item 1{enter}').type('item 2{enter}').type('item 3{enter}');

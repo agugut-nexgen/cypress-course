@@ -15,7 +15,7 @@ describe('Example test', () => {
         });
     });
 
-    it('test1', () => {
+    it.only('test1', () => {
         cy.logDebug('Check first item');
         coursesHelper.checkItem();
         cy.get('.todo-count').should('have.text', '2 items left');

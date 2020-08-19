@@ -1,1 +1,5 @@
-{}
+{
+    "env": {
+        "DEBUG_LEVEL": "DEBUG"
+    }
+}
